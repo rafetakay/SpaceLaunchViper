@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174C70D52D5202B200CBC9B6 /* LaunchDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C70D42D5202B200CBC9B6 /* LaunchDetailPresenter.swift */; };
+		174C70D72D52035B00CBC9B6 /* LaunchDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C70D62D52035B00CBC9B6 /* LaunchDetailInteractor.swift */; };
+		174C70D92D520E0B00CBC9B6 /* LaunchDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C70D82D520E0B00CBC9B6 /* LaunchDetailRouter.swift */; };
 		17FD57D22D5104EB00DEE54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57D12D5104EB00DEE54B /* AppDelegate.swift */; };
 		17FD57D42D5104EB00DEE54B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57D32D5104EB00DEE54B /* SceneDelegate.swift */; };
 		17FD57D62D5104EB00DEE54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57D52D5104EB00DEE54B /* ViewController.swift */; };
 		17FD57D92D5104EB00DEE54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FD57D72D5104EB00DEE54B /* Main.storyboard */; };
 		17FD57DB2D5104EE00DEE54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FD57DA2D5104EE00DEE54B /* Assets.xcassets */; };
 		17FD57DE2D5104EE00DEE54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FD57DC2D5104EE00DEE54B /* LaunchScreen.storyboard */; };
+		17FD57EC2D5105A700DEE54B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 17FD57EB2D5105A700DEE54B /* Alamofire */; };
+		17FD57F02D51093700DEE54B /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57EF2D51093700DEE54B /* Launch.swift */; };
+		17FD57F22D51094200DEE54B /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57F12D51094200DEE54B /* Links.swift */; };
+		17FD57F42D51094E00DEE54B /* Patch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57F32D51094E00DEE54B /* Patch.swift */; };
+		17FD57F62D510A5E00DEE54B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57F52D510A5E00DEE54B /* LaunchViewController.swift */; };
+		17FD57F82D510A7100DEE54B /* LaunchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57F72D510A7100DEE54B /* LaunchDetailViewController.swift */; };
+		17FD57FB2D510A8F00DEE54B /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57FA2D510A8F00DEE54B /* LaunchCell.swift */; };
+		17FD58002D5110E300DEE54B /* LaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD57FF2D5110E300DEE54B /* LaunchRouter.swift */; };
+		17FD58022D5110FE00DEE54B /* LaunchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD58012D5110FE00DEE54B /* LaunchPresenter.swift */; };
+		17FD58042D51111C00DEE54B /* LaunchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD58032D51111C00DEE54B /* LaunchInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174C70D42D5202B200CBC9B6 /* LaunchDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailPresenter.swift; sourceTree = "<group>"; };
+		174C70D62D52035B00CBC9B6 /* LaunchDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailInteractor.swift; sourceTree = "<group>"; };
+		174C70D82D520E0B00CBC9B6 /* LaunchDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailRouter.swift; sourceTree = "<group>"; };
 		17FD57CE2D5104EB00DEE54B /* SpaceLaunchViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceLaunchViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FD57D12D5104EB00DEE54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FD57D32D5104EB00DEE54B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,15 @@
 		17FD57DA2D5104EE00DEE54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FD57DD2D5104EE00DEE54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FD57DF2D5104EE00DEE54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FD57EF2D51093700DEE54B /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		17FD57F12D51094200DEE54B /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		17FD57F32D51094E00DEE54B /* Patch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patch.swift; sourceTree = "<group>"; };
+		17FD57F52D510A5E00DEE54B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		17FD57F72D510A7100DEE54B /* LaunchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailViewController.swift; sourceTree = "<group>"; };
+		17FD57FA2D510A8F00DEE54B /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		17FD57FF2D5110E300DEE54B /* LaunchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRouter.swift; sourceTree = "<group>"; };
+		17FD58012D5110FE00DEE54B /* LaunchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPresenter.swift; sourceTree = "<group>"; };
+		17FD58032D51111C00DEE54B /* LaunchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FD57EC2D5105A700DEE54B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +82,11 @@
 		17FD57D02D5104EB00DEE54B /* SpaceLaunchViper */ = {
 			isa = PBXGroup;
 			children = (
+				17FD57E92D51052900DEE54B /* Router */,
+				17FD57E82D51052100DEE54B /* Entity */,
+				17FD57E72D51051A00DEE54B /* Presenter */,
+				17FD57E62D51050B00DEE54B /* Interactor */,
+				17FD57E52D51050500DEE54B /* View */,
 				17FD57D12D5104EB00DEE54B /* AppDelegate.swift */,
 				17FD57D32D5104EB00DEE54B /* SceneDelegate.swift */,
 				17FD57D52D5104EB00DEE54B /* ViewController.swift */,
@@ -65,6 +96,61 @@
 				17FD57DF2D5104EE00DEE54B /* Info.plist */,
 			);
 			path = SpaceLaunchViper;
+			sourceTree = "<group>";
+		};
+		17FD57E52D51050500DEE54B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17FD57F92D510A8000DEE54B /* Cells */,
+				17FD57F52D510A5E00DEE54B /* LaunchViewController.swift */,
+				17FD57F72D510A7100DEE54B /* LaunchDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17FD57E62D51050B00DEE54B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				17FD58032D51111C00DEE54B /* LaunchInteractor.swift */,
+				174C70D62D52035B00CBC9B6 /* LaunchDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		17FD57E72D51051A00DEE54B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				17FD58012D5110FE00DEE54B /* LaunchPresenter.swift */,
+				174C70D42D5202B200CBC9B6 /* LaunchDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		17FD57E82D51052100DEE54B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				17FD57EF2D51093700DEE54B /* Launch.swift */,
+				17FD57F12D51094200DEE54B /* Links.swift */,
+				17FD57F32D51094E00DEE54B /* Patch.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		17FD57E92D51052900DEE54B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				17FD57FF2D5110E300DEE54B /* LaunchRouter.swift */,
+				174C70D82D520E0B00CBC9B6 /* LaunchDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		17FD57F92D510A8000DEE54B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17FD57FA2D510A8F00DEE54B /* LaunchCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,9 @@
 			dependencies = (
 			);
 			name = SpaceLaunchViper;
+			packageProductDependencies = (
+				17FD57EB2D5105A700DEE54B /* Alamofire */,
+			);
 			productName = SpaceLaunchViper;
 			productReference = 17FD57CE2D5104EB00DEE54B /* SpaceLaunchViper.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 17FD57C52D5104EB00DEE54B;
+			packageReferences = (
+				17FD57EA2D5105A700DEE54B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 17FD57CF2D5104EB00DEE54B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FD57F82D510A7100DEE54B /* LaunchDetailViewController.swift in Sources */,
+				174C70D52D5202B200CBC9B6 /* LaunchDetailPresenter.swift in Sources */,
+				17FD57F62D510A5E00DEE54B /* LaunchViewController.swift in Sources */,
+				17FD57F22D51094200DEE54B /* Links.swift in Sources */,
+				17FD58022D5110FE00DEE54B /* LaunchPresenter.swift in Sources */,
 				17FD57D62D5104EB00DEE54B /* ViewController.swift in Sources */,
 				17FD57D22D5104EB00DEE54B /* AppDelegate.swift in Sources */,
+				17FD58042D51111C00DEE54B /* LaunchInteractor.swift in Sources */,
+				174C70D72D52035B00CBC9B6 /* LaunchDetailInteractor.swift in Sources */,
+				17FD58002D5110E300DEE54B /* LaunchRouter.swift in Sources */,
+				17FD57F02D51093700DEE54B /* Launch.swift in Sources */,
+				17FD57F42D51094E00DEE54B /* Patch.swift in Sources */,
 				17FD57D42D5104EB00DEE54B /* SceneDelegate.swift in Sources */,
+				17FD57FB2D510A8F00DEE54B /* LaunchCell.swift in Sources */,
+				174C70D92D520E0B00CBC9B6 /* LaunchDetailRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +467,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17FD57EA2D5105A700DEE54B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17FD57EB2D5105A700DEE54B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17FD57EA2D5105A700DEE54B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17FD57C62D5104EB00DEE54B /* Project object */;
 }
