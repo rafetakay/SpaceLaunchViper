@@ -1,4 +1,4 @@
-1️⃣ SpaceLaunchViper - README
+ SpaceLaunchViper - README
 
 🚀 SpaceLaunchViper
 
